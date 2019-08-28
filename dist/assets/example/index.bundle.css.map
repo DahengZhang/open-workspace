@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/example/App.vue?c9e2","webpack:///./src/example/pages/Home.vue?ba08"],"names":[],"mappings":"AAAA,SAAS,W;ACAT,cAAc,c","file":"assets/example/index.bundle.css","sourcesContent":[".example{color:#ccc}",".example.home{color:#4c90f7}"],"sourceRoot":""}

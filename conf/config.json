@@ -1,0 +1,22 @@
+{
+    "local": {
+        "vhtml_host": "https://oaimg.b.qq.com",
+        "domain": "",
+        "path": ""
+    },
+    "dev": {
+        "vhtml_host": "https://oaimg.b.qq.com",
+        "domain": "http://9.134.3.164",
+        "path": ""
+    },
+    "oa": {
+        "vhtml_host": "https://oaimg.b.qq.com",
+        "domain": "https://oaimg.b.qq.com",
+        "path": ""
+    },
+    "ol": {
+        "vhtml_host": "https://bqq.gtimg.com",
+        "domain": "https://bqq.gtimg.com",
+        "path": ""
+    }
+}
