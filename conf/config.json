@@ -7,16 +7,16 @@
     "dev": {
         "vhtml_host": "https://oaimg.b.qq.com",
         "domain": "http://9.134.3.164",
-        "path": ""
+        "path": "/dist"
     },
     "oa": {
         "vhtml_host": "https://oaimg.b.qq.com",
         "domain": "https://oaimg.b.qq.com",
-        "path": ""
+        "path": "/dist"
     },
     "ol": {
         "vhtml_host": "https://bqq.gtimg.com",
         "domain": "https://bqq.gtimg.com",
-        "path": ""
+        "path": "/dist"
     }
 }

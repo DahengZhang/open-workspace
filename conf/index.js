@@ -10,7 +10,7 @@ const getHtmlNameReg = /\/([^/]*)\.entry\.js$/
 
 const getArgv = (name) => {
     const argvs = process.argv.find(item => {
-        return item.indexOf(`${name}`) !== -1
+        return item.indexOf(`--${name}`) !== -1
     }) || ''
     return argvs.split('=').length < 2 ? false : argvs.split('=')[1]
 }
@@ -44,6 +44,5 @@ module.exports = {
     getTemplate,
     getHtmlName,
     options: conf[getArgv('env') || (isDev ? 'local' : 'dev')],
-    domain: getArgv('domain'),
-    buildPath: getArgv('build-path')
+    buildPath: getArgv('path')
 }

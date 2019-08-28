@@ -11,6 +11,7 @@ const entryPath = glob.sync(
     ? `./src/**/${buildPath}/**/*.entry.js`
     : './src/**/*.entry.js'
 ).sort((a, b) => b.split('/').length - a.split('/').length)
+
 let entry = {}
 let htmlPlugins = []
 let rewrites = []
