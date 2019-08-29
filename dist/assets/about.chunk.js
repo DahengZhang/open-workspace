@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{16:function(t,n,s){},18:function(t,n,s){"use strict";var a=s(16);s.n(a).a},19:function(t,n,s){"use strict";s.r(n);var a={name:"appAbout"},i=(s(18),s(0)),u=Object(i.a)(a,function(){var t=this.$createElement;return(this._self._c||t)("div",{staticClass:"app about"},[this._v("\n    This is App/About\n")])},[],!1,null,null,null);n.default=u.exports}}]);
+//# sourceMappingURL=about.chunk.js.map
