@@ -54,10 +54,6 @@ module.exports = {
             }
         }]
     },
-    externals: {
-        'vue': 'Vue',
-        'vhtml-ui': 'vhtml'
-    },
     devServer: {
         host: '0.0.0.0',
         port: 7000,

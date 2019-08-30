@@ -46,6 +46,10 @@ module.exports = merge(conf, {
             rewrites
         }
     },
+    externals: {
+        // 'vue': 'Vue'
+    },
+    stats: 'errors-only',
     plugins: [
         ...htmlPlugins
     ]
