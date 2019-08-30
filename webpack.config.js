@@ -34,7 +34,7 @@ for (let i = 0; i < entryPath.length; i++) {
     }))
 
     rewrites.push({
-        from: new RegExp('^\/' + ep),
+        from: new RegExp(`/${ep.split('/').join('(/\\d+)?/')}(/\\d+)?$`),
         to: `${path.join('/views', ep, getHtmlName(e))}.html`
     })
 }

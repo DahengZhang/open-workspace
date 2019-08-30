@@ -1,17 +1,17 @@
 <template>
-    <div class="app home">
-        This is App/Home
+    <div class="detail">
+        This is Detail
     </div>
 </template>
 
 <script>
 export default {
-    name: 'appHome'
+    name: 'detail'
 }
 </script>
 
 <style lang="scss">
-.app.home {
-    color: #4c90f7;
+.detail {
+    color: #cccccc;
 }
 </style>
