@@ -1,12 +1,16 @@
 <template>
     <div class="app about">
         This is App/About
+        <router-view></router-view>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'appAbout'
+    name: 'appAbout',
+    created() {
+        console.log(this.$route.params.id)
+    }
 }
 </script>
 

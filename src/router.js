@@ -13,8 +13,13 @@ export default new Router({
         name: 'app',
         component: Home
     }, {
-        path: '/about',
+        path: '/about/:id',
         name: 'appAbout',
-        component: () => import(/* webpackChunkName: "about" */ '@/pages/About')
+        component: () => import(/* webpackChunkName: "about" */ '@/pages/About'),
+        children: [{
+            path: 'detail',
+            name: 'appDetail',
+            component: () => import(/* webpackChunkName: "detail" */ '@/pages/Detail'),
+        }]
     }]
 })
