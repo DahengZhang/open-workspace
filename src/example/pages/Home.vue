@@ -1,12 +1,17 @@
 <template>
     <div class="example home">
-        This is Example/Home
+        <attr-item></attr-item>
     </div>
 </template>
 
 <script>
+import AttrItem from '../components/AttrItem'
+
 export default {
-    name: 'exampleHome'
+    name: 'exampleHome',
+    components: {
+        AttrItem
+    }
 }
 </script>
 
