@@ -1,7 +1,7 @@
 <template>
     <div class="attr-item">
-        <span class="attr-label">属性名</span>:
-        <span class="attr-value">属性值</span>
+        <span class="attr-label"><slot name="label">属性名</slot></span>:
+        <span class="attr-value"><slot name="value">属性值</slot></span>
     </div>
 </template>
 

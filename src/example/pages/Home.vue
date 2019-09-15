@@ -1,6 +1,9 @@
 <template>
     <div class="example home">
-        <attr-item></attr-item>
+        <attr-item>
+            <template slot="label">生产地址</template>
+            <template slot="value">江苏 徐州</template>
+        </attr-item>
     </div>
 </template>
 
